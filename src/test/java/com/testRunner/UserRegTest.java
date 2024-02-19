@@ -15,6 +15,7 @@ import io.cucumber.junit.CucumberOptions;
 			publish = true,
 			dryRun = false
 			)
+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
 
 public class UserRegTest
 {
