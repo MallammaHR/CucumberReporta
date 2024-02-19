@@ -8,6 +8,7 @@ When User select car "Sedan" and pickUp point "Bangalore" and drop loaction "Pun
 Then Driver starts the Journey
 And  Driver ends the Joureny
 Then User pays 1000 USD
+Then Uuser checks the trip details
 
 @Smoke @Regression
 Scenario: Booking Cab SUV

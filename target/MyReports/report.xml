@@ -1,27 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.545">
-    <testcase classname="Uber Booking Feature" name="Booking Cab" time="0.124">
-        <system-out><![CDATA[Given User want to select a car type "Sedan"  from Uber Application.........passed
-When User select car "Sedan" and pickUp point "Bangalore" and drop loaction "Pune".passed
-Then Driver starts the Journey..............................................passed
-And Driver ends the Joureny.................................................passed
-Then User pays 1000 USD.....................................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Uber Booking Feature" name="Booking Cab SUV" time="0.011">
-        <system-out><![CDATA[Given User want to select a car type "SUV"  from Uber Application...........passed
-When User select car "Sedan" and pickUp point "Bangalore" and drop loaction "Hyderbad".passed
-Then Driver starts the Journey..............................................passed
-And Driver ends the Joureny.................................................passed
-Then User pays 1500 USD.....................................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Uber Booking Feature" name="Booking Cab MINI" time="0.01">
-        <system-out><![CDATA[Given User want to select a car type "MINI"  from Uber Application..........passed
-When User select car "Sedan" and pickUp point "Pune" and drop loaction "Mumbai".passed
-Then Driver starts the Journey..............................................passed
-And Driver ends the Joureny.................................................passed
-Then User pays 100 USD......................................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.486">
+    <testcase classname="User Registration" name="user registration with differnt data" time="0.134">
+        <system-out><![CDATA[Given User is on registration page..........................................passed
+When User enters the following user details.................................passed
+Then user registrtaion should be sucessful..................................passed
 ]]></system-out>
     </testcase>
 </testsuite>
