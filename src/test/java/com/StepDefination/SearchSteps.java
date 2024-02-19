@@ -20,7 +20,8 @@ public class SearchSteps
 
 	}
 	
-	@When("I search for a Product with name {string} and price {int}")
+	//@When("I search for a Product with name {string} and price {int}")
+	@When("I search for a Product with name \"([^\"]+)\" and price (\\d+)$")
 	public void i_search_for_a_product_with_name_and_price(String productName, Integer price)
 	{
 		System.out.println("Step 2: Search the Product with Name: " + productName + "price:  "+price);
@@ -37,9 +38,17 @@ public class SearchSteps
 		search =new Search();
 		String name=search.displayTheproduct(product);
 		System.out.println("Searched product is : "+name);
+		
 		Assert.assertEquals(product.getProductName(), name);
 		
 	}
+	
+	@Then("the order id is {int} and username is {string}")
+	public void the_order_id_is_and_username_is(Integer id, String username)
+	{
+	 System.out.println("The order with id :"+id +" "+"and user name is "+username );
+	}
+
 	
 
 	

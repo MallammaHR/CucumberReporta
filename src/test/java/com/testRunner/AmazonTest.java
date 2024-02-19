@@ -7,10 +7,10 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = {"src/test/java/com/AppFeature/Saerch.feature"},
-glue ={"com.StepDefination","com.MyHooks"},
+glue ={"com.StepDefination","com.MyHooks"},tags="@All",
 plugin={"pretty"})
 
-public class SearchTest 
+public class AmazonTest 
 {
 
 }

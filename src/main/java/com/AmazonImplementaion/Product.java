@@ -39,7 +39,7 @@ public class Product
 		List<String> productList=new ArrayList<>();
 		productList.add("Apple Mac Book Pro");
 		productList.add("Apple Mac Book Air");
-		productList.add("Apple iphone Pro");
+		productList.add("iPhone");
 		return productList;
 	
 	}
