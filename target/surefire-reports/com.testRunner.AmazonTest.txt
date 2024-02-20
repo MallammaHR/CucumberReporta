@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: com.testRunner.SearchTest
+Test set: com.testRunner.AmazonTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.531 s - in com.testRunner.SearchTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.799 s - in com.testRunner.AmazonTest

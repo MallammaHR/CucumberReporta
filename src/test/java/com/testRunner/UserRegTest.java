@@ -11,11 +11,11 @@ import io.cucumber.junit.CucumberOptions;
 		glue ={"com.StepDefination"},
 		plugin={"pretty",
 			"json:target/MyReports/reports.json",
-			"junit:target/MyReports/report.xml"},
-			publish = true,
-			dryRun = false
+			"junit:target/MyReports/report.xml"}
+//			publish = true,
+//			dryRun = false
 			)
-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
+//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
 
 public class UserRegTest
 {

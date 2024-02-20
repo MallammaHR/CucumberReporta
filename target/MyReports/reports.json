@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-02-19T21:01:21.680Z",
+        "start_timestamp": "2024-02-20T17:42:50.965Z",
         "line": 3,
         "name": "user registration with differnt data",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3005200,
+              "duration": 2870100,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 1978400,
+              "duration": 4684500,
               "status": "passed"
             },
             "line": 5,
@@ -66,9 +66,92 @@
           },
           {
             "result": {
+              "duration": 1212600,
               "status": "passed"
             },
             "line": 9,
+            "name": "user registrtaion should be sucessful",
+            "match": {
+              "location": "com.StepDefination.UserRegistrationSteps.user_registrtaion_should_be_sucessful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-20T17:42:51.014Z",
+        "line": 11,
+        "name": "user registration with differnt data with coloumns",
+        "description": "",
+        "id": "user-registration;user-registration-with-differnt-data-with-coloumns",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User is on registration page",
+            "match": {
+              "location": "com.StepDefination.UserRegistrationSteps.user_is_on_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters the following user details with columns",
+            "match": {
+              "location": "com.StepDefination.UserRegistrationSteps.user_enters_the_following_user_details_with_columns(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "LastName",
+                  "email",
+                  "phone",
+                  "City"
+                ]
+              },
+              {
+                "cells": [
+                  "Mallu",
+                  "Manish",
+                  "mall@gmail.com",
+                  "99999",
+                  "Bangalore"
+                ]
+              },
+              {
+                "cells": [
+                  "tom",
+                  "peter",
+                  "tom@gmail.com",
+                  "909090",
+                  "US"
+                ]
+              },
+              {
+                "cells": [
+                  "lisa",
+                  "Jhon",
+                  "lisa@gmail.com",
+                  "804710",
+                  "Uk"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
             "name": "user registrtaion should be sucessful",
             "match": {
               "location": "com.StepDefination.UserRegistrationSteps.user_registrtaion_should_be_sucessful()"
